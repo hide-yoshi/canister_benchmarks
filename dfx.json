@@ -1,0 +1,17 @@
+{
+  "canisters": {
+    "canister_benchmarks_backend": {
+      "candid": "src/canister_benchmarks_backend/canister_benchmarks_backend.did",
+      "package": "canister_benchmarks_backend",
+      "type": "rust"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
