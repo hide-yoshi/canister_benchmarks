@@ -1,0 +1,71 @@
+{
+  "client": {
+    "ic": "zcau5-ziaaa-aaaao-a34lq-cai"
+  },
+  "client10": {
+    "ic": "ygn3p-aiaaa-aaaao-a34nq-cai"
+  },
+  "client2": {
+    "ic": "ytkkc-baaaa-aaaao-a34oa-cai"
+  },
+  "client3": {
+    "ic": "yulmw-myaaa-aaaao-a34oq-cai"
+  },
+  "client4": {
+    "ic": "y5ihk-2qaaa-aaaao-a34pa-cai"
+  },
+  "client5": {
+    "ic": "y2jb6-xiaaa-aaaao-a34pq-cai"
+  },
+  "client6": {
+    "ic": "5gs33-4aaaa-aaaao-a34qa-cai"
+  },
+  "client7": {
+    "ic": "5bt5p-ryaaa-aaaao-a34qq-cai"
+  },
+  "client8": {
+    "ic": "5iqwt-hqaaa-aaaao-a34ra-cai"
+  },
+  "client9": {
+    "ic": "5prqh-kiaaa-aaaao-a34rq-cai"
+  },
+  "proxy1": {
+    "ic": "vdtqc-zyaaa-aaaaj-az4aq-cai"
+  },
+  "proxy10": {
+    "ic": "4z2im-7yaaa-aaaao-a34uq-cai"
+  },
+  "proxy11": {
+    "ic": "67c2b-wiaaa-aaaao-a34zq-cai"
+  },
+  "proxy2": {
+    "ic": "4qzdq-jqaaa-aaaao-a34va-cai"
+  },
+  "proxy3": {
+    "ic": "vkq36-pqaaa-aaaaj-az4ba-cai"
+  },
+  "proxy4": {
+    "ic": "4xyfe-eiaaa-aaaao-a34vq-cai"
+  },
+  "proxy5": {
+    "ic": "vnr5k-ciaaa-aaaaj-az4bq-cai"
+  },
+  "proxy6": {
+    "ic": "4c7uj-faaaa-aaaao-a34wa-cai"
+  },
+  "proxy7": {
+    "ic": "vywmh-daaaa-aaaaj-az4ca-cai"
+  },
+  "proxy8": {
+    "ic": "4f6s5-iyaaa-aaaao-a34wq-cai"
+  },
+  "proxy9": {
+    "ic": "v7xkt-oyaaa-aaaaj-az4cq-cai"
+  },
+  "server": {
+    "ic": "kunsr-5aaaa-aaaaj-azzvq-cai"
+  },
+  "server_same_subnet": {
+    "ic": "52wbk-laaaa-aaaao-a34sa-cai"
+  }
+}

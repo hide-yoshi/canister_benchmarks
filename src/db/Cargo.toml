@@ -1,5 +1,5 @@
 [package]
-name = "canister_benchmarks_backend"
+name = "proxy"
 version = "0.1.0"
 edition = "2021"
 
@@ -9,6 +9,8 @@ edition = "2021"
 crate-type = ["cdylib"]
 
 [dependencies]
-candid = "0.10"
-ic-cdk = "0.16"
-ic-cdk-timers = "0.10" # Feel free to remove this dependency if you don't need timers
+candid.workspace = true
+ic-cdk.workspace = true
+ic-cdk-timers.workspace = true
+common.workspace = true
+futures.workspace = true

@@ -1,8 +1,118 @@
 {
   "canisters": {
-    "canister_benchmarks_backend": {
-      "candid": "src/canister_benchmarks_backend/canister_benchmarks_backend.did",
-      "package": "canister_benchmarks_backend",
+    "client": {
+      "candid": "src/client/client.did",
+      "package": "client",
+      "type": "rust"
+    },
+    "client2": {
+      "candid": "src/client/client.did",
+      "package": "client",
+      "type": "rust"
+    },
+    "client3": {
+      "candid": "src/client/client.did",
+      "package": "client",
+      "type": "rust"
+    },
+    "client4": {
+      "candid": "src/client/client.did",
+      "package": "client",
+      "type": "rust"
+    },
+    "client5": {
+      "candid": "src/client/client.did",
+      "package": "client",
+      "type": "rust"
+    },
+    "client6": {
+      "candid": "src/client/client.did",
+      "package": "client",
+      "type": "rust"
+    },
+    "client7": {
+      "candid": "src/client/client.did",
+      "package": "client",
+      "type": "rust"
+    },
+    "client8": {
+      "candid": "src/client/client.did",
+      "package": "client",
+      "type": "rust"
+    },
+    "client9": {
+      "candid": "src/client/client.did",
+      "package": "client",
+      "type": "rust"
+    },
+    "client10": {
+      "candid": "src/client/client.did",
+      "package": "client",
+      "type": "rust"
+    },
+    "server": {
+      "candid": "src/server/server.did",
+      "package": "server",
+      "type": "rust"
+    },
+    "server_same_subnet": {
+      "candid": "src/server/server.did",
+      "package": "server",
+      "type": "rust"
+    },
+    "proxy1": {
+      "candid": "src/proxy/proxy.did",
+      "package": "proxy",
+      "type": "rust"
+    },
+    "proxy2": {
+      "candid": "src/proxy/proxy.did",
+      "package": "proxy",
+      "type": "rust"
+    },
+    "proxy3": {
+      "candid": "src/proxy/proxy.did",
+      "package": "proxy",
+      "type": "rust"
+    },
+    "proxy4": {
+      "candid": "src/proxy/proxy.did",
+      "package": "proxy",
+      "type": "rust"
+    },
+    "proxy5": {
+      "candid": "src/proxy/proxy.did",
+      "package": "proxy",
+      "type": "rust"
+    },
+    "proxy6": {
+      "candid": "src/proxy/proxy.did",
+      "package": "proxy",
+      "type": "rust"
+    },
+    "proxy7": {
+      "candid": "src/proxy/proxy.did",
+      "package": "proxy",
+      "type": "rust"
+    },
+    "proxy8": {
+      "candid": "src/proxy/proxy.did",
+      "package": "proxy",
+      "type": "rust"
+    },
+    "proxy9": {
+      "candid": "src/proxy/proxy.did",
+      "package": "proxy",
+      "type": "rust"
+    },
+    "proxy10": {
+      "candid": "src/proxy/proxy.did",
+      "package": "proxy",
+      "type": "rust"
+    },
+    "proxy11": {
+      "candid": "src/proxy/proxy.did",
+      "package": "proxy",
       "type": "rust"
     }
   },

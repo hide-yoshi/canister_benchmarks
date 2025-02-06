@@ -1,5 +1,16 @@
 [workspace]
 members = [
-    "src/canister_benchmarks_backend"
+    "src/client",
+    "src/server",
+    "src/common",
+    "src/cmd",
+    "src/proxy",
 ]
 resolver = "2"
+
+[workspace.dependencies]
+candid = "0.10"
+ic-cdk = "0.16"
+ic-cdk-timers = "0.10"
+common = { path = "src/common" }
+futures = "0.3.31"

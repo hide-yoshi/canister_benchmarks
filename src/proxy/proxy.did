@@ -1,0 +1,11 @@
+type Result = variant { Ok : nat64; Err : text };
+type Result_1 = variant { Ok : nat64; Err : vec text };
+service : {
+  call_server_query : (nat32) -> (Result);
+  call_server_query_parallel : (nat32) -> (Result_1);
+  call_server_update : (nat32) -> (Result);
+  call_server_update_parallel : (nat32) -> (Result_1);
+  greet : (text) -> (text) query;
+  set_server : (text) -> ();
+  update : (text) -> ();
+}
