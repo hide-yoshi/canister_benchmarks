@@ -151,17 +151,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd"
 
 [[package]]
-name = "client"
-version = "0.1.0"
-dependencies = [
- "candid",
- "common",
- "futures",
- "ic-cdk",
- "ic-cdk-timers",
-]
-
-[[package]]
 name = "cmd"
 version = "0.1.0"
 dependencies = [
@@ -685,16 +674,6 @@ dependencies = [
  "quote",
  "serde",
  "syn 2.0.96",
-]
-
-[[package]]
-name = "server"
-version = "0.1.0"
-dependencies = [
- "candid",
- "common",
- "ic-cdk",
- "ic-cdk-timers",
 ]
 
 [[package]]

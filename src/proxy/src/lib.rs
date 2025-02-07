@@ -3,13 +3,7 @@ use std::cell::RefCell;
 use candid::Principal;
 pub use common::info;
 use futures::future::join_all;
-use ic_cdk::{api::call::CallResult, call, query, update};
-#[query]
-fn greet(name: String) -> String {
-    info("greet".to_string());
-    format!("Hello, {}!", name)
-}
-
+use ic_cdk::{api::call::CallResult, call, update};
 #[update]
 fn set_server(principal: String) {
     SERVER.with(|server| {
@@ -18,18 +12,13 @@ fn set_server(principal: String) {
 }
 
 #[update]
-async fn call_server_update(count: u32) -> Result<u64, String> {
-    let now = ic_cdk::api::time();
-    update_call(count).await?;
-    let elapsed_nanosec = ic_cdk::api::time() - now;
-    let elapsed = elapsed_nanosec / 1_000_000;
-    Ok(elapsed)
-}
-
-#[update]
 async fn call_server_update_parallel(count: u32) -> Result<u64, Vec<String>> {
     let now = ic_cdk::api::time();
-    parallel_call(count, true).await?;
+    let result = parallel_call(count, true).await;
+    if let Err(err) = result {
+        info(format!("Error: {:?}", err));
+        return Err(err);
+    }
     let elapsed_nanosec = ic_cdk::api::time() - now;
     let elapsed = elapsed_nanosec / 1_000_000;
     Ok(elapsed)

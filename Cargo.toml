@@ -1,8 +1,5 @@
 [workspace]
 members = [
-    "src/client",
-    "src/server",
-    "src/common",
     "src/cmd",
     "src/proxy",
 ]

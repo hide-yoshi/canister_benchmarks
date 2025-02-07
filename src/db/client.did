@@ -1,8 +1,0 @@
-service : {
-  call_server_query : (nat32) -> (nat64);
-  call_server_query_parallel : (nat32) -> (nat64);
-  call_server_update : (nat32) -> (nat64);
-  call_server_update_parallel : (nat32) -> (nat64);
-  greet : (text) -> (text) query;
-  set_server : (text) -> ();
-}
