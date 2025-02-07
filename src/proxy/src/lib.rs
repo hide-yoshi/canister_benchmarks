@@ -77,7 +77,8 @@ async fn update_call(count: u32) -> Result<(), String> {
     for _ in 0..count {
         let res: CallResult<()> = call(server(), "update", ("test".to_string(),)).await;
         if let Err(err) = res {
-            return Err(err.1);
+            let (code, msg) = err;
+            return Err(format!("{:?}: {}", code, msg));
         }
     }
     Ok(())

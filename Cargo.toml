@@ -1,6 +1,5 @@
 [workspace]
 members = [
-    "src/cmd",
     "src/proxy",
 ]
 resolver = "2"
